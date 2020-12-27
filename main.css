@@ -1,23 +1,37 @@
+
 a {
     text-decoration: none;
-    color: #37392E
 }
-body {
-    text-align: center;
-}
+
 #bio {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-
+body {
+    text-align: center;
+    width: 100%;
+}
 footer {
-    color: #1e1c00; 
-    background-color: #DAD67C;
+    color: #ACACAC; 
+    background-color: #7C0610;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top:1em;
+    padding-bottom: 1em;
     margin-top: 2em;
+}
+footer a {
+color: #ACACAC;
+}
+form {
+    border: 4px double #7C0610;
+    width: 200px;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 #gallery {
     display: grid;
@@ -35,12 +49,12 @@ h1, h2 {
 }
 main {
     font-family: 'Poppins', sans-serif;
-    padding: 20em;
+    padding: 2em;
 }
 li a {
     text-decoration: none;
     display: block;
-    color: #37392E; 
+    color: #758984;
     font-weight: 10000;
     font-family: 'Amatic SC', cursive;
     font-size: 12pt;
@@ -51,16 +65,19 @@ nav{
     font-size: 18pt;
 }
 #navbar {
-    position: fixed;
-  top: 0;
   width: 100%;
-  padding: 0.5em;
 }
-nav img {
-    height: 55px;
+header img {
+    height: 125px;
+    justify-content: right;
 }
 section img {
     width: 200px;
+}
+article {
+    width: 200px;
+    text-align: left;
+    margin-right: 60%;
 }
 #orders-table {
     margin-left: auto;
@@ -80,8 +97,29 @@ ul {
     text-align: center;
     padding: 0em;
 }
+.inventory {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inventory div {
+    margin: 0.5em;
+    border: 2px solid #0a0903;
+    width: 200px;
+}
+.inventory div img {
+    width: 100px;
+}
+.inventory div:hover {
+    box-shadow: #CEEBBF 15px 15px 20px;
+}
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-device-width: 768px) {
+    body main {
+        width: max-content;
+    }
     #gallery img {
         width: 500px;
     }
@@ -112,12 +150,24 @@ li a {
 #subscriptionH {
     font-size: 28pt;
 }
+body form {
+    width: 500px;
+}
 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
    
 }
+body .inventory div {
+    margin: 2em 2em 2em 30%;
+    padding: 2em 2em 0em 2em;
+    width: 300px;
+}
+body .inventory div img {
+    width: 200px;
+}
+
 }
 @media only screen and (min-width: 62.5em) {
     main #bio section {
@@ -139,8 +189,5 @@ ul {
         height: 125px;
         margin-left: -125px;
     }
-    article {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+
 }

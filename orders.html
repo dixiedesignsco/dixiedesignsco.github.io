@@ -5,33 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <title>Orders</title>
+    <title>Products</title>
 </head>
 <body>
-    <nav id='navbar'>
-        <ul>
-            <li>
-                <img src="images/logo.png" alt="logo">
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="orders.html">Orders</a>
-            </li>
-            <li>
-                <a href="gallery.html">Inventory</a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav id='navbar'>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="orders.html">Products</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <p>Note: This is an example of an order form that I have created for a small business. You can go ahead and try this one out. There are more options shown once you check bow or topknot. <br>
-             If you type in shaebutter.github.io/view-orders.html you can see the example of what 
-             you, as the business owner, would see when people have ordered using this page. You would also receive 
-            a confirmation email each time there is a new order.</p>
+        EXAMPLE
         
-            <h1 id="surveyheading">Order Here!</h1>
+            
             <form method="GET">
+                <h1 id="surveyheading">Order Here!</h1>
                 <section id="form">
                     <!-- <section> -->
                         <span>
@@ -115,85 +110,12 @@
                             <label for="shipping"> Zipcode: </label>
                             <input type="tel" id="shipping" name="zipcode" required>
                         </span> <br><br>
-                        <p>*each product is $4 <br>
-                            *shipping is $4 unless your order is over $25</p> <br>
-                        <span>
-                            <label for="typeProduct">What product?<br> </label>
-                            <br>
-                            <input type="checkbox" id="type1" name="type1" value="topknot" onchange="showQtyInput(event)">
-                            <label for="type1"> Top Knot </label>
-                            <div id="type1qty" style=" display:none">
-                                <label for="type1qty"> Quantity: </label>
-                                <input type="number" name="type1qty" value="topknotQty" style="width: 50px;">
-                            </div>
-                            <input type="checkbox" id="type2" name="type2" value="bow" onchange="showQtyInput(event)">
-                            <label for="type2"> Bow </label>
-                            <div id="type2qty" style=" display:none">
-                                <label for="type2qty"> Quantity: </label>
-                                <input type="number" name="type2qty" value="topknotQty" style="width: 50px;">
-                            </div><br>
-                        </span>
-                        <br><br>
-                        <span id="type2print" style="display:none">
-                            <label for="typeProduct">If you chose bow...</label> <br><br>
-                            What print?<br>
-                            <textarea name="bowPrint" id="bowPrint" cols="15"
-                                rows="2"></textarea><br><br>
-                            What size?
-                            <label for="thick">
-                                <input type="radio" value="thick" name="bowSize" id="thick">
-                                Thick
-                            </label>
-                            <label for="skinny">
-                                <input type="radio" value="skinny" name="bowSize" id="skinny">
-                                Skinny
-                            </label> <br><br>
-                            What type?
-                            <label for="nylonheadband">
-                                <input type="radio" value="nylonheadband" name="bowType" id="nylonheadband">
-                                Nylon Head Band
-                            </label>
-                            <label for="aligatorclip">
-                                <input type="radio" value="aligatorclip" name="bowType" id="aligatorclip">
-                                Aligator Clip
-                            </label> <br><br><br>
-                        </span>
-                        <span>
-                    <!-- </section>
-                    <section> -->
-                        <span id="type1print" style="display:none">
-                            <label for="additionalComments">If you chose top knot...</label> <br><br>
-                            What print? <br>
-                            <textarea name="topknotPrint" id="additionalComments" cols="15" rows="2"></textarea>
-                            <br><br>
-                            What size? <br>
-                            <label for="smallest">
-                                <input type="radio" value="0-6 months" name="topknotSize" id="thick">
-                                0-6 months
-                            </label>
-                            <label for="small">
-                                <input type="radio" value="6-12 months" name="topknotSize" id="skinny">
-                                6-12 months
-                            </label>
-                            <br>
-                            <label for="medium">
-                                <input type="radio" value="1-3 yrs" name="topknotSize" id="skinny">
-                                1-3 years
-                            </label>
-                            <label for="large">
-                                <input type="radio" value="4yrs+" name="topknotSize" id="skinny">
-                                4 years +
-                            </label>
-                        </span>
-                        </span><br>
-                        </span> <br>
-                        <br>
-                        <span>
+                       
                             <label for="additionalComments">Type any additional instructions here:</label> <br>
                             <textarea name="additionalComments" id="additionalComments" cols="30" rows="3"></textarea>
                         </span><br>
                         <span>
-                            <input type="submit" value="Submit">
+                            <a href="thankyou.html"></a>
                             <input type="reset" value="Clear">
                         </span> <br>
                     <!-- </section> -->
