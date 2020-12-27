@@ -112,7 +112,7 @@ ul {
     width: 100px;
 }
 .inventory div:hover {
-    box-shadow: #CEEBBF 15px 15px 20px;
+    box-shadow: #CC5500 15px 15px 20px;
 }
 
 @media only screen and (min-device-width: 768px) {
