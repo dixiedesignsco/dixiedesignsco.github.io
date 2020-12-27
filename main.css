@@ -10,18 +10,19 @@ a {
 }
 body {
     text-align: center;
-    width: 100%;
+    justify-content: center;
 }
 footer {
     color: #ACACAC; 
     background-color: #7C0610;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top:1em;
-    padding-bottom: 1em;
-    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    font-size: 12px;
 }
 footer a {
 color: #ACACAC;
@@ -76,8 +77,6 @@ section img {
 }
 article {
     width: 200px;
-    text-align: left;
-    margin-right: 60%;
 }
 #orders-table {
     margin-left: auto;
@@ -167,7 +166,9 @@ body .inventory div {
 body .inventory div img {
     width: 200px;
 }
-
+body footer {
+    font-size: 16pt;
+}
 }
 @media only screen and (min-width: 62.5em) {
     main #bio section {
