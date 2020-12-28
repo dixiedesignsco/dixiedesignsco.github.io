@@ -61,6 +61,7 @@ h1, h2 {
 main {
     font-family: 'Poppins', sans-serif;
     padding: 2em;
+    margin-top: 4em;
 }
 li a {
     text-decoration: none;
@@ -105,7 +106,7 @@ ul {
 }
 .inventory {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -170,6 +171,9 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
    
+}
+.inventory {
+    grid-template-columns: 1fr 1fr;
 }
 body .inventory div {
     padding: 2em 2em 0em 2em;
