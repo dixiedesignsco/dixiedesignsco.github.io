@@ -1,4 +1,8 @@
 
+
+.hidemenu {
+    display: none;
+}
 a {
     text-decoration: none;
 }
@@ -111,6 +115,10 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+#current {
+    background-color: #ACACAC;
+    justify-content: center;
+}
 .inventory div {
     margin: 0.5em;
     border: 2px solid #0a0903;
@@ -122,9 +130,16 @@ ul {
 .inventory div:hover {
     box-shadow: #CC5500 15px 15px 40px;
 }
-
+/* .hidemenu {
+    display: block;
+    margin-top: 2.5em;
+    margin-left: -8em;
+} */
 
 @media only screen and (min-device-width: 768px) {
+    #hamburger{
+        display:none;
+    }
     body {
         margin-left: auto;
         margin-right: auto;
@@ -172,6 +187,11 @@ ul {
     justify-content: space-evenly;
    
 }
+
+.hidemenu {
+    display: block;
+}
+
 .inventory {
     grid-template-columns: 1fr 1fr;
 }
