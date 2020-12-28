@@ -14,6 +14,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+main {
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
 hr {
     background-color: #CC5500;
 }
@@ -128,6 +133,9 @@ ul {
     }
 #heropic {
     width: 740px;
+}
+main {
+    width: 600px;
 }
 menu {
     display: flex;
