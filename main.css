@@ -27,8 +27,8 @@ hr {
     background-color: #CC5500;
 }
 footer {
-    color: #ACACAC; 
-    background-color: #3D655B;
+    color: #000000; 
+    background-color: #BEDFC0;
     font-family: 'Amatic SC', cursive;
     text-align: center;
     padding-left: 1em;
@@ -39,7 +39,7 @@ footer {
     font-size: 12px;
 }
 footer a {
-color: #ACACAC;
+color: #000000;
 }
 form {
     border: 4px double #7C0610;
@@ -70,7 +70,7 @@ main {
 li a {
     text-decoration: none;
     display: block;
-    color: #7C0610;
+    color: #70B27E;
     font-weight: bold;
     font-family: 'Amatic SC', cursive;
     font-size: 12pt;
@@ -114,7 +114,7 @@ ul {
     margin-right: auto;
 }
 #current {
-    background-color: #ACACAC;
+    background-color: #BEDFC0;
     justify-content: center;
 }
 .inventory div {
@@ -182,7 +182,7 @@ body form {
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
    
 }
 
@@ -205,11 +205,8 @@ body footer {
 }
 }
 @media only screen and (min-width: 62.5em) {
-    main #bio section {
-        width: 600px
-    }
     #gallery img {
-        width: 800px;
+        width: 600px;
     }
     section img {
         width: 400px;
@@ -224,5 +221,8 @@ body footer {
         height: 125px;
         margin-left: -125px;
     }
-
+    main #bio {
+        width: 800px;
+        margin-left: -100px;
+    }
 }
