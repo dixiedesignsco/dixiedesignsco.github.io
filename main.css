@@ -23,8 +23,8 @@ width: 300px;
 margin-left: auto;
 margin-right: auto;
 }
-hr {
-    background-color: #CC5500;
+ article .subnav a{
+    padding-right: 1em;
 }
 footer {
     color: #000000; 
@@ -41,21 +41,8 @@ footer {
 footer a {
 color: #000000;
 }
-form {
-    border: 4px double #7C0610;
-    width: 200px;
-    padding-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
-}
-#gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-#gallery img {
-    width: 300px;
-    margin-top: 2em;
-}
+
+
 #heropic {
     width: 350px;
 }
@@ -65,7 +52,10 @@ h1, h2 {
 main {
     font-family: 'Poppins', sans-serif;
     padding: 2em;
-    margin-top: 4em;
+    /* margin-top: 0.5em; */
+}
+a{
+    color: #70B27E;
 }
 li a {
     text-decoration: none;
@@ -84,49 +74,19 @@ header img {
     height: 125px;
     justify-content: right;
 }
-section img {
+img {
     width: 200px;
 }
 
-#orders-table {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 8pt;
-}
-#orders-table td {
-    border: 1px solid black;
-    font-family: 'Poppins', sans-serif;
-  }
-#orders-table th {
-      font-weight: 800;
-      font-family: 'Poppins', sans-serif;
-} 
 ul {
     list-style-type: none;
     text-align: center;
     padding: 0em;
 }
-.inventory {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #current {
     background-color: #BEDFC0;
     justify-content: center;
-}
-.inventory div {
-    margin: 0.5em;
-    border: 2px solid #0a0903;
-    width: 200px;
-}
-.inventory div img {
-    width: 100px;
-}
-.inventory div:hover {
-    box-shadow: #CC5500 15px 15px 40px;
 }
 /* .hidemenu {
     display: block;
@@ -142,8 +102,8 @@ ul {
         margin-left: auto;
         margin-right: auto;
     }
-    #gallery img {
-        width: 500px;
+    main img {
+        width: 600px;
     }
 #heropic {
     width: 740px;
@@ -170,12 +130,7 @@ li a {
     padding-right: 1em;
     font-size: 12pt;
 }
-#orders-table {
-    font-size: 12pt;
-}
-#subscriptionH {
-    font-size: 28pt;
-}
+
 body form {
     width: 500px;
 }
@@ -205,9 +160,6 @@ body footer {
 }
 }
 @media only screen and (min-width: 62.5em) {
-    #gallery img {
-        width: 600px;
-    }
     section img {
         width: 400px;
     }
