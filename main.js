@@ -10,6 +10,18 @@ function hidemenu() {
         })
 
 }
+// function subnav() {
+
+//     document.querySelectorAll('.subnav')
+//         .forEach(element => {
+//             if (element.style.display !== 'block')
+//                 element.style.display = 'block';
+
+//             else
+//                 element.style.display = 'none';
+//         })
+
+// }
 
 // function showQtyInput(event) {
 //     console.log(event.target.id);

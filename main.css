@@ -6,11 +6,24 @@
 a {
     text-decoration: none;
 }
+#parkreviews {
+    margin-top: 2em;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-style: solid;
+  border-color: #CC4184;
+
+ }
+ #parkreviewbox {
+    column-count: 2;
+ }
+ table {
+     justify-content: left;
+ }   
 
 #bio {
     width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 125px;
 }
 body {
     text-align: center;
@@ -23,9 +36,19 @@ width: 300px;
 margin-left: auto;
 margin-right: auto;
 }
- article .subnav a{
-    padding-right: 1em;
+/* .subnav {
+    opacity: 0;
+    /* transform: scale(0); */
+/* }
+.subnav:hover {
+    opacity: 1;
+} */
+body main article .subnav {
+    padding-top: 3em;
 }
+ article .subnav a{
+    padding: 2em;
+ }
 footer {
     color: #000000; 
     background-color: #BEDFC0;
@@ -66,18 +89,24 @@ li a {
     font-size: 12pt;
 }
 nav{
-    padding: 0.25em;
+    padding: 0.5em;
     font-size: 18pt;
     height: 50px;
 }
-header img {
-    height: 125px;
-    justify-content: right;
+header {
+    margin-bottom: 4em;
+    padding-bottom: 2em;
 }
-img {
+header img {
     width: 200px;
 }
-
+article img {
+    width: 200px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
 ul {
     list-style-type: none;
     text-align: center;
@@ -102,7 +131,7 @@ ul {
         margin-left: auto;
         margin-right: auto;
     }
-    main img {
+    body main section img {
         width: 600px;
     }
 #heropic {
@@ -110,6 +139,14 @@ ul {
 }
 main {
     width: 600px;
+}
+main #parkreviews img {
+    margin-right: auto;
+    margin-left: 200px;
+    width: 200px;
+    display: block;
+    padding: 0.5em;
+    column-span: all;
 }
 menu {
     display: flex;
@@ -121,7 +158,8 @@ nav {
     justify-content: space-evenly;
 } 
 nav img {
-    height: 65px;
+    height: fit-content;
+    padding-right: 1em;
     margin-left: -45px;
 }
 li a {
@@ -140,6 +178,12 @@ ul {
     /* justify-content: space-evenly; */
    
 }
+/* main tbody #parkreviews tr {
+    display: grid;
+    grid-template-columns: 3fr;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto; } */
 
 .hidemenu {
     display: block;
@@ -157,6 +201,10 @@ body .inventory div img {
 }
 body footer {
     font-size: 16pt;
+}
+main section #parkreviewbox img {
+    width: 400px;
+    margin-left: 100px;
 }
 }
 @media only screen and (min-width: 62.5em) {
